@@ -1,9 +1,22 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Vector Machine THEORY</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<p><strong>Support Vector Machines</strong></p>
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <p><strong>Support Vector Machines</strong></p>
 <p><strong>What is it?</strong></p>
 <p>Support vector machines (SVMs) are a particularly powerful and flexible class of<br>
 supervised algorithms for both classification and regression. In this section, we will<br>
@@ -38,7 +51,7 @@ are known as the support vectors, and give the algorithm its name.</p>
 the right panel, we have doubled the number of training points, but the model has<br>
 not changed: the three support vectors from the left panel are still the support vectors from the right panel. This insensitivity to the exact behavior of distant points is one of the strengths of the SVM model.</p>
 <p><img src="https://lh4.googleusercontent.com/iZemac0LUVtR0yEhrHGKF6gPXp9QdHKtwyZRYhD9t5wlbxk5R7e8KJjp8-N6yZ6xTiHt4VEodCF16bk2ohuGGm5Y3fEwFiITJj08kgexmM0iMM0fcuYiRNzoqW34nwTkUb32GTbz" alt=""></p>
-<p>Beyond Linear Boundaries: Kernel SVM</p>
+<p><strong>Beyond Linear Boundaries: Kernel SVM</strong></p>
 <p>What we made use of till now can be called a linear kernel as there was a linear boundary classifying the point into their various respective classes. But there can be data which is not linearly separable. For example:</p>
 <p><img src="https://lh4.googleusercontent.com/YUzgsWFLkBHMl16jl-G4iQzl34r9hhRgock57hyhgXhGlkfRwT6kN0Dq1ujyNqQMsQ65zYG_N5nXCOMpmKsLQMHpGpgNe1OHJlUfnoABtHWmiDUZZN8dPp0aARfvxEweKv5UMiSs" alt=""></p>
 <p>It is clear that no linear discrimination will ever be able to separate this data. But we<br>
@@ -64,3 +77,8 @@ transformation is known as a kernel transformation, as it is based on a similari
 <p>The optimal value of the C parameter will depend on your dataset, and should be<br>
 tuned via cross-validation or a similar procedure.</p>
 
+    </div>
+  </div>
+</body>
+
+</html>
