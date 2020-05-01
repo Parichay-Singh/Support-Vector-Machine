@@ -13,3 +13,6 @@ Basic SVM model built from scatch to better understand how SVM works mathematica
 
 # Support Vector Machine THEORY:
 As the name suggests, contains basic mathematical and theoritical concepts related to SVM.
+
+# bill_authentication.csv
+Dataset pertaining to Bank notes authenticity prediction model
